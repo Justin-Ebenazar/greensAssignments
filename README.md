@@ -1,4 +1,5 @@
 # Assignments attached
 
-* Random number Generator 
-* Number guessing game
+## JavaScript assignment
+* Random number Generator - 02/09/2025
+* Number guessing game - 02/09/2025
