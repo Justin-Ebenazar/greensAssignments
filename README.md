@@ -1,6 +1,5 @@
 # Assignments attached
 <br>
-<br>
 
 ## JavaScript assignment
 * Random number Generator - 02/10/2025
