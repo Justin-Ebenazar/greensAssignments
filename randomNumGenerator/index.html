@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="main">
+        <div class="holder">
+            <h1>Welcome to Random Number generator!</h1>
+            <p>Enter the range you want</p>
+            <input type="number" name="range-min" required id="min" />
+            <input type="number" name="range-max" required id="max" />
+            <button type="submit" onclick="guessFix()">Generate</button>
+        </div>
+        <br>
+        <div class="holder2">
+            <h1 id="Guess-answer"></h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

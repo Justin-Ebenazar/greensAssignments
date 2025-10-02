@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="main">
+        <div class="holder">
+            <h1>Welcome to Number Guesser!</h1>
+            <p>Try to guess the number I'm thinking of</p>
+            <input type="number" name="range-min" required id="min" />
+            <input type="number" name="range-max" required id="max" />
+            <button type="submit" onclick="guessFix()">Start Guess</button>
+        </div>
+        
+        <div class="holder2">
+            <input type="number" id="myGuess" required  disabled/>
+            <button id="guess" onclick="guessCheck()" disabled >Guess</button>
+            <h1 id="Guess-answer"></h1>
+            <h2 id="wish"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
