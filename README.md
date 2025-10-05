@@ -7,3 +7,6 @@
 
 ## SQL Assignment
 * SQL assignment - 03/10/2025
+
+## Java SpringBoot 
+* Todo Application api end points - 05/10/2025
